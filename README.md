@@ -15,3 +15,12 @@ We can solve the problem in the following way:
 • We define the size of the step: -1.
 • In the body of the loop, we print the value of the current step.
 
+03.Example: Numbers from 1 to 2^n with a For Loop
+In the following example, we will look at using the usual step with size of 1, combined with a calculation 
+at each loop iteration.
+Write a program that prints the numbers from 1 to 2^n (two in power of n). For example, if n = 10, 
+the result will be: 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024.
+
+
+
+
