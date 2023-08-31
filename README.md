@@ -21,6 +21,20 @@ at each loop iteration.
 Write a program that prints the numbers from 1 to 2^n (two in power of n). For example, if n = 10, 
 the result will be: 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024.
 
+04.Example: Even Powers of 2
+Print the even powers of 2 to 2
+n: 2^0,2^2,2^4, 2^6,2^8, …, 2^n
+. For example, if n = 10, the result will be: 1, 
+4, 16, 64, 256, 1024.
+
+Hints and Guidelines
+Here is how we can solve the problem using a for-loop with a step:
+Chapter 7.1. More Complex Loops 259
+• We create a num variable for the current number to which we assign an initial value of 1.
+• For a step of the loop, we set a value of 2.
+• In the body of the loop: we print the value of the current number and increase the current 
+number num 4 times (according to the problem's description).
+
 
 
 
