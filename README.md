@@ -29,12 +29,19 @@ n: 2^0,2^2,2^4, 2^6,2^8, …, 2^n
 
 Hints and Guidelines
 Here is how we can solve the problem using a for-loop with a step:
-Chapter 7.1. More Complex Loops 259
 • We create a num variable for the current number to which we assign an initial value of 1.
 • For a step of the loop, we set a value of 2.
 • In the body of the loop: we print the value of the current number and increase the current 
 number num 4 times (according to the problem's description).
 
+05.Example: Sequence of Numbers 2k+1
+Write a program that prints all numbers ≤ n of the series: 1, 3, 7, 15, 31, …, assuming that each next 
+number = previous number * 2 + 1.
+Here is how we can solve the problem:
+• We create a num variable for the current number to which we assign an initial value of 1.
+• For a loop condition, we put the current number <= n.
+• In the body of the loop: we print the value of the current number and increase the current 
+number by using the formula from the problem's description.
 
 
 
