@@ -57,6 +57,29 @@ new value to num from the console input.
 • Once we have validated the entered number, we print the value of the number outside the 
 body of the loop.
 
+07.Greatest Common Divisor (GCD)
+Before proceeding to the next problem, we will get familiar with the definition of the greatest common 
+divisor (GCD), widely used in mathematics and numbers theory, and will learn how to calculate GCD.
+Definition of GCD: the greatest common divisor of two natural numbers a and b is the largest number
+that divides both a and b without reminder.
+a   b   GCD  a  b  GCD  a  b  GCD
+24 16   8   12 24  12   10  10  10
+67 18   1   15 9   3    100 88  4
+
+The Euclidean Algorithm
+In the next problem we will use one of the first published algorithms for finding the GCD – Euclid's 
+algorithm.
+Until we reach a remainder of 0:
+• We divide the greater number by the smaller one.
+• We take the remainder of the division.
+Euclid's algorithm pseudo-code:
+while b ≠ 0
+ var oldB = b;
+ b = a % b;
+ a = oldB;
+print a;
+
+
 
 
 
