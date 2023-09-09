@@ -181,3 +181,10 @@ o Otherwise, we display a message stating that the number is not even. The itera
 continue until an even number is entered.
 • Finally, after the loop, print the even number on the screen.
 
+12.Nested Loops and Break
+Once we have learned what the nested loops are and how the break operator works, it is time to 
+figure out how they work together. For a better understanding, let's step by step write a program that 
+should make all possible combinations of pairs of numbers. The first number of the combination is 
+increasing from 1 to 3 and the second one is decreasing from 3 to 1. The problem must continue 
+running until i + j is not equal to 2 (i = 1 and j = 1). The desired result is:
+![image](https://github.com/Sasho80/7.1.-Complex-Loops/assets/7139995/ad8f7e12-1feb-456e-85d2-7fa58b68ab5f)
