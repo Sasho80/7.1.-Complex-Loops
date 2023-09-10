@@ -197,10 +197,10 @@ F0 = 1
 F1 = 1
 Fn = Fn-1 + Fn-2
 Sample Input and Output
-Input (n) Output Comment Input (n) Output
-10 89 F(11) = F(9) + F(8) 0 1
-5 8 F(5) = F(4) + F(3) 1 1
-20 10946 F(20) = F(19) + F(18) 2 2
+Input (n) Output Comment               Input (n) Output
+10        89     F(11) = F(9) + F(8)   0         1
+5         8      F(5) = F(4) + F(3)    1         1
+20        10946 F(20) = F(19) + F(18)  2         2
 Enter an integer number n and calculate the n-number of Fibonacci.
 
 Hints and Guidelines
