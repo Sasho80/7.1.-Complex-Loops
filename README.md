@@ -188,3 +188,30 @@ should make all possible combinations of pairs of numbers. The first number of t
 increasing from 1 to 3 and the second one is decreasing from 3 to 1. The problem must continue 
 running until i + j is not equal to 2 (i = 1 and j = 1). The desired result is:
 ![image](https://github.com/Sasho80/7.1.-Complex-Loops/assets/7139995/ad8f7e12-1feb-456e-85d2-7fa58b68ab5f)
+
+13.Problem: Fibonacci Numbers
+Fibonacci's numbers in mathematics form a sequence that looks like this: 1, 1, 2, 3, 5, 8, 13, 21, 
+34, 55, 89, ….
+The formula to form the Fibonacci sequence is:
+F0 = 1
+F1 = 1
+Fn = Fn-1 + Fn-2
+Sample Input and Output
+Input (n) Output Comment Input (n) Output
+10 89 F(11) = F(9) + F(8) 0 1
+5 8 F(5) = F(4) + F(3) 1 1
+20 10946 F(20) = F(19) + F(18) 2 2
+Enter an integer number n and calculate the n-number of Fibonacci.
+
+Hints and Guidelines
+An idea to solve the problem:
+• We create a variable n to which we assign an integer value from the console input.
+• We create the variables f0 and f1 to which we assign a value of 1, since the sequence starts.
+• We create a for loop with condition the current value i < n - 1.
+• In the body of the loop:
+o We create a temporary variable fNext, to which we assign the next number in the 
+Fibonacci sequence.
+o To f0 we assign the current value of f1.
+o To f1 we assign the value of the temporary variable fNext.
+• Out of the loop we print the nth number of Fibonacci.
+
