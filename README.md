@@ -219,22 +219,22 @@ o To f1 we assign the value of the temporary variable fNext.
 Print the numbers 1 … n in a table as in the examples below.
 Sample Input and Output
 Input Output 
- 
-Input Output 
 3
       1 2 3
       2 3 2
       3 2 1
 Input Output
 4
-1 2 3 4
-2 3 4 3
-3 4 3 2
-4 3 2 1
+      1 2 3 4
+      2 3 4 3
+      3 4 3 2
+      4 3 2 1
 Input Output
 2
       1 2
-      2 1 5
+      2 1 
+Input Output     
+5
       1 2 3 4 5
       2 3 4 5 4
       3 4 5 4 3
